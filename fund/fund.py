@@ -106,7 +106,7 @@ TableName = "danjuan_fund_2020_4"  # 2020 四季度基金
 
 def init_conn():
     global Connection, Table  # 全局使用
-    url = "mysql+pymysql://root:wnnwnn@127.0.0.1:3306/testdb"  # 测试地址，改成你的本地 mysql 数据库地址
+    url = "mysql+pymysql://root:1@127.0.0.1:3306/testdb"  # 测试地址，改成你的本地 mysql 数据库地址
     engine = db.create_engine(url)
     metadata = db.MetaData()
     Connection = engine.connect()
