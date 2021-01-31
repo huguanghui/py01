@@ -28,7 +28,7 @@ def save_mysql(fund_code, fund_name, managers, enddate, detail_json):
 
 
 def main():
-    print("hello world")
+    save_mysql("aa", "bb", "cc", "dd", "ee")
 
 
 if __name__ == "__main__":
